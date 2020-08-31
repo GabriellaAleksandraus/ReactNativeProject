@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  const [outputText, setOutputText] = useState('Open up App.js to start working on your app!');
   return (
     <View style={styles.container}>
-      <Text>{outputText}</Text>
-      <Button title="Change Text" onPress={() => setOutputText('The text changed!')}/>
+      <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
   );
