@@ -23,7 +23,7 @@ export default function App() {
         onChangeText={goalInputHandler}
         value={enteredGoal}
         />
-        <Button title="ADD" onPress={addGoalHandler}/>
+        <Button title="ADD" onPress={addGoalHandler} color="#696969"/>
 
       </View>
       <View>
