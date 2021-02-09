@@ -5,7 +5,7 @@ A project to learn react native.
 ## How to start:
 
 1. open command prompt (in start menu)
-2. git clone git@github.com:GabriellaJakobson/ReactNativeProject.git (Only needed first time on new computer) 
+2. git clone git@github.com:GabriellaJakobson/ReactNativeProject.git (Only needed first time on new computer) (SSH)
 3. cd ReactNativeProject
 4. cd rn-first-app
 5. npm start (node package manager)
